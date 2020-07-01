@@ -5,7 +5,8 @@
         <td>
             <h2>Sign Up Form</h2>
         </td>
-        <form>
+        <form action="{{ route('welcome') }}" method="POST">
+            @csrf
             <label>First Name :</label><br><br>
             <input type="text" id ="fname" name="fname" value=""><br><br>
             <label>Last Name :</label><br><br>

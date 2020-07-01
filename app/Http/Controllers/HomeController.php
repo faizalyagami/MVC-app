@@ -19,7 +19,8 @@ class HomeController extends Controller
         return view('register');
         
     }
-    public function welcome() {
-        return redirect('welcome');
+    public function welcome(Request $request) {
+        $name = $request->input('fname') .' '. $request->input('lname');
+        return view('welcome', compact('name'));
     }
 }

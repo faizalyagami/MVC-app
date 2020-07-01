@@ -17,4 +17,4 @@ Route::get('/', 'HomeController@home')->name('home');
 
 Route::get('/register', 'HomeController@register')->name('register');
 
-Route::get('/welcome', 'HomeController@welcome')->name('welcome');
+Route::post('/welcome', 'HomeController@welcome')->name('welcome');
