@@ -18,6 +18,7 @@
             <label>Nationality</label><br><br>
             <select name="Nationality", id="Nationality">
                 <option value="">-- select one --</option>
+                <option value="arabic">Arab</option>
                 <option value="afghan">Afghan</option>
                 <option value="albanian">Albanian</option>
                 <option value="algerian">Algerian</option>
@@ -214,6 +215,7 @@
             <label>Language Spoken :</label><br><br>
             <input type="radio" id="IDN" name="Language" value="Indonesia">Bahasa Indonesia<br>
             <input type="radio" id="ENG" name="Language" value="English">English<br>
+            <input type="radio" id="ARB" name="Language" value="Arabic">Arab<br>
             <input type="radio" id="other" name="Language" value="other">Other<br><br>
             <label>Bio :</label><br><br>
             <td><textarea name="Bio" id="Bio" cols="30" rows="10"></textarea></td><br>
